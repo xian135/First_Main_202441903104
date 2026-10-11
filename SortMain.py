@@ -50,7 +50,7 @@ def pzsSelectSort(arr):
 # 功能：查找数组中第k小的元素，不需要完整排序
 # 参数：arr - 原始数字数组；k - 目标位次，从0开始计数
 # 返回值：数组第k小的元素
-def quickSelect(arr, k):
+def szyQuickSort(arr, k):
     # 分区函数，选取最右侧元素作为基准，划分左右区间
     def partition(left, right):
         # 设置基准元素为区间最右侧的值
